@@ -4,7 +4,7 @@ const initialState = {
     location: [],
 };
 
-export const IndexReducer = (state=initialState, {type, payload}) => {
+export const FactsReducer = (state=initialState, {type, payload}) => {
     switch (type) {
         case ActionTypes.SET_FACTS:
             return { ...state, location: payload};
