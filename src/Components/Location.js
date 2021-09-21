@@ -41,7 +41,11 @@ function Questions() {
     break;
     case "county": summary.innerHTML =  City.county + City.areacode  + City.zipcode;
      break;
-   
+     case "festivals": summary.innerHTML =  City.festivals;
+     break;
+     case "economy": summary.innerHTML =  City.economy;
+      break;
+    
 
    default: 
        alert('Default case');
@@ -61,10 +65,9 @@ function Questions() {
     <a href="#" onClick={(e) => {ShowData(e, 'demographics')}}>demographics</a><br/>
     <a href="#" onClick={(e) => {ShowData(e, 'county')}}>Home</a><br/>
     <a href="#" onClick={(e) => {ShowData(e, 'population')}}>Our Town</a><br/>
-    <a href="#" onClick={(e) => {ShowData(e, 'meaning')}}>What's in a name?</a><br/>
-    <a href="#" onClick={(e) => {ShowData(e, 'county')}}>Home</a><br/>
     <a href="#" onClick={(e) => {ShowData(e, 'incorporated')}}>Happy Birthday!</a><br/>
-    <a href="#" onClick={(e) => {ShowData(e, 'area')}}>In Southwestern Wisconsin</a><br/>
+    <a href="#" onClick={(e) => {ShowData(e, 'festivals')}}>Syttende Mai</a><br/>
+    <a href="#" onClick={(e) => {ShowData(e, 'economy')}}>commerce</a><br/>
 
     </div>
     </>
