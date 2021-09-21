@@ -14,7 +14,7 @@ function colorChange(e){
 function colorChange2(e){
     e.preventDefault();
     let bgcolor = document.getElementById("root");
-    bgcolor.style.backgroundColor = "blue";
+    bgcolor.style.backgroundColor = "red";
     // let words = document.getElementById("middle");
     // words.style.visibility = "visible";
 }

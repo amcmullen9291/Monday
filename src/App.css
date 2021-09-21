@@ -79,5 +79,11 @@
 #history{
   background-color: rgb(216, 21, 21);
   opacity: 1;
+  height: 17em;
+  justify-content: center;
+  margin-left: 20%;
+  margin-right: 5%;
+  margin-top: 2em;
+  border: 2px solid white;
 }
 
