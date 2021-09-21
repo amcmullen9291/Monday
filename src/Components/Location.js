@@ -60,7 +60,7 @@ function Questions() {
     </div>
     <center><p id="history"> </p></center>
     <div id ="sideNav">
-      <center><div>Learn About Westby!</div></center>
+      <center><div id="menuHeading">Learn About Westby!</div></center>
       <hr/>
     <a href="#" onClick={(e) => {ShowData(e, 'demographics')}}>demographics</a><br/>
     <a href="#" onClick={(e) => {ShowData(e, 'county')}}>Home</a><br/>

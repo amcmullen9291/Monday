@@ -27,7 +27,7 @@ function colorChange2(e){
       <hr/>
       <br/>
       <img alt="Westby" id="mainBoard2" className="Flags" src={`${process.env.PUBLIC_URL}/WestbyFlag.jpg`}/>
-      <img alt="Wisconsin" id="mainBoard" className="Flags" src={`${process.env.PUBLIC_URL}/StateFlag.jpg`}/>
+      <img alt="Wisconsin" id="mainBoard" className="Flags" src={`${process.env.PUBLIC_URL}/wisconsinFlag.jpg`}/>
     </div>
     <center><Link to="/locations"><button id="enterButton" onMouseOver={(e) => {colorChange(e)}} onMouseLeave={(e) => {colorChange2(e)}}>Almanac</button></Link></center>
 

@@ -22,6 +22,11 @@
 
 #mainBoard{
   margin-left: 45%;
+  display: block;
+  max-width:460px;
+  max-height:95px;
+  width: auto;
+  height: auto;
 }
 
 #mainBoard2{
@@ -55,6 +60,7 @@
 
 #middle{
   visibility: hidden;
+  margin-bottom: 2%;
 }
 
 #returnWords{
@@ -84,6 +90,10 @@
   margin-left: 20%;
   margin-right: 5%;
   margin-top: 2em;
-  border: 2px solid white;
+  border: 3px dashed white;
+  font-size: 18px;
+}
+#menuHeading{
+  color: white;
 }
 
