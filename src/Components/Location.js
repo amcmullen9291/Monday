@@ -68,7 +68,6 @@ function Questions() {
     <a href="#" onClick={(e) => {ShowData(e, 'incorporated')}}>Happy Birthday!</a><br/>
     <a href="#" onClick={(e) => {ShowData(e, 'festivals')}}>Syttende Mai</a><br/>
     <a href="#" onClick={(e) => {ShowData(e, 'economy')}}>commerce</a><br/>
-
     </div>
     </>
   )
