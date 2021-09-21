@@ -22,14 +22,22 @@ function Questions() {
             setData();
           }, []);
 
+          function ShowData(data){
+              let summary = document.getElementById("history");
+              console.log(summary);
+          }
+
   return (
       <>
     <div>
       <center><h2>Questions Page</h2></center>
       <button id="returnButton"><Link to="/" id="returnWords">Back Home</Link></button>
     </div>
+    <center><p id="history"> howdy </p></center>
     <div id ="sideNav">
-
+      <center><div>Learn About Westby!</div></center>
+      <hr/>
+    <a href="#" onCLick={ShowData("demographics")}>demographics</a>
     </div>
     </>
   )

@@ -1,7 +1,7 @@
 import './App.css';
 import { BrowserRouter as Router, Route, Switch, Redirect } from 'react-router-dom';
 import Home from './Components/Home';
-import Questions from './Components/Questions';
+import Locations from './Components/Location';
 
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
     <Router>
       <Switch>
           <Route path={"/"} exact component={Home}/>
-          <Route path={"/questions"} exact component={Questions}/>
+          <Route path={"/locations"} exact component={Locations}/>
           <Redirect to={"/"} />
         </Switch>
     </Router>

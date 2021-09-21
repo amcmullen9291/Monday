@@ -10,8 +10,10 @@
   color:yellow;
 }
 
-body{
+#main{
   background-color: blue;
+  opacity: 100%;
+  margin-bottom: 5%;
 }
 
 .table{
@@ -73,3 +75,9 @@ body{
 	overflow:hidden; 
 	overflow-y:scroll;
 }
+
+#history{
+  background-color: rgb(216, 21, 21);
+  opacity: 1;
+}
+
